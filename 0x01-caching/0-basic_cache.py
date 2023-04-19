@@ -8,7 +8,8 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 class BasicCache(BaseCaching):
     """
-    Basic dict class
+    The class puts into a dictionary created in the parent
+    class and outputs it
     """
     def __init__(self):
         super().__init__()   # call the parents init to initialize cachedata
