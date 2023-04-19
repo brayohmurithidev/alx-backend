@@ -15,7 +15,6 @@ class BasicCache(BaseCaching):
 
     def put(self, key, item):
         if key is not None and item is not None:
-            print("Key is okay")
             self.cache_data[key] = item
 
     def get(self, key):
