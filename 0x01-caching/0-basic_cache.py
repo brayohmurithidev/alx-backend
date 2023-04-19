@@ -11,8 +11,6 @@ class BasicCache(BaseCaching):
     The class puts into a dictionary created in the parent
     class and outputs it
     """
-    def __init__(self):
-        super().__init__()   # call the parents init to initialize cachedata
 
     def put(self, key, item):
         if key is not None and item is not None:
