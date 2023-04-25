@@ -35,9 +35,7 @@ def get_locale():
 @app.route('/')
 def basic_flask():
     '''Flask basic route'''
-    title = _("Welcome to Holberton")
-    header = _("Hello world")
-    return render_template("3-index.html", title=title, header=header)
+    return render_template("4-index.html")
 
 
 if __name__ == "__main__":
