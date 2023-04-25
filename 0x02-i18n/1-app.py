@@ -21,5 +21,12 @@ app.config.from_object(Config)
 
 babel = Babel(app)
 
+
+@app.route('/')
+def basic_flask():
+    '''Flask basic route'''
+    return render_template("2-index.html")
+
+
 if __name__ == "__main__":
     app.run()
