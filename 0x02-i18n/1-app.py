@@ -4,6 +4,8 @@ from flask_babel import Babel
 
 '''
 Basic Babel Setup
+We instanciate babel object to our app.
+Create config default locale to 'en' and timezone to 'UTC'
 '''
 
 
@@ -29,4 +31,5 @@ def basic_flask():
 
 
 if __name__ == "__main__":
+    '''Run app'''
     app.run()
